@@ -89,14 +89,12 @@ background: #F24C4C;
 }
 #about-us>div>img{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 74.48%, rgba(0, 0, 0, 0.8) 100%);
-    /* width : 30vw; */
-    /* margin-left: 20px;
-} */
+    width : 450px;
 }
 #about-div4>p{
     width : 40vw;
     font-family: Ruda;
-font-size: 25px;
+font-size: 20px;
 font-weight: 400;
 line-height: 40px;
 letter-spacing: 0.09em;
@@ -113,7 +111,7 @@ text-align: left;
 }
 #about-div5{
     background: #B62828;
-    width: 520px;
+    width: 540px;
     height: 7px;
     top: 2087px;
     left: 609px;
@@ -195,7 +193,8 @@ text-align: left;
     }
 }
 @media screen and (width: 1280px){
-    #dought {
+    #dought
+     {
         width : 100px;
     }
 }
@@ -213,5 +212,79 @@ text-align: left;
     }
     #about-div2{
         justify-content: space-evenly;
+    }
+}
+
+#menu{
+    background-color: black;
+    padding: 10px 100px 50px 100px;
+}
+#menu-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#menu-div1>p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Ruda;
+font-size: 22px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+text-align: left;
+   padding-left: 20px;
+}
+#menu-div1>h4{
+      font-family: Quattrocento;
+     font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+   border-bottom: 5px solid #b62828;
+   width :fit-content;
+   padding: 1px 50px 1px 50px;
+}
+.menu-div3{
+    display: flex;
+    justify-content: space-evenly;
+    width : 500px;
+    margin : 20px;
+}
+.menu-div3>img{
+    width : 200px;
+}
+.menu-div4>h5{
+        font-family: Ruda;
+   font-size: 28px;
+   font-weight: 400;
+   letter-spacing: 0em;
+   text-align: left;
+    color: #F2C94C;
+
+}
+.menu-div4>p{
+       font-family: Ruda;
+   font-size: 18px;
+   font-weight: 400;
+  /* line-height: 40px; */
+   letter-spacing: 0.09em;
+   text-align: left;
+
+}
+#menu-div2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.menu-div4{
+    margin-left: 20px;
+}
+@media screen and (max-width : 1000px){
+    .menu-div3{
+        width : 100%;
     }
 }
